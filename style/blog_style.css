@@ -125,3 +125,55 @@
     cursor: grabbing;
 }
 
+/* 3rd part of HTML Style Shit */
+
+#back-ground
+{
+    margin: 5px;
+    padding: 20px 20px;
+    border: #4d52b4 solid 2px;
+    border-radius: 12px;
+    width: 650px;
+    height: 550px;
+    text-align: center;
+}
+
+#back-ground-intro
+{
+    font-size: 45px;
+    font-family: helvetica;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #4d52b4;
+}
+
+#back-ground-intro-p , #back-ground-intro-p2
+{
+    font-size: 16px;
+    font-family: verdana;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #4d52b4;
+    text-align: justify;
+
+}
+
+#hype
+{
+    font-size: 16px;
+    font-family: arial;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #4d52b4;
+    padding-top: 10px;
+    margin-top: 20px;
+    justify-self: end;;
+
+}
+
+#content_img
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
