@@ -1,3 +1,9 @@
+* body
+{
+    margin: 0px;
+    padding: 0px;
+
+}
 .header
 {
     width: 1480px;
@@ -7,6 +13,7 @@
     padding: 10px 10px;
 
 }
+
 
 .cont_banner
 {
@@ -43,7 +50,14 @@
 
 
 /* 2nd part The Description*/
-#box
+#dec
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#box , #box_2 , #box_3
 {
     margin: 25px;
     padding: 15px;
@@ -51,11 +65,19 @@
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px grey ;
     width: 350px;
-    height: 550px;
+    height: 350px;
     
 }
 
-#Elements
+#box_name , #box_name_1 , #box_name_2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#Elements , #Elements_py , #Elements_Js
 {
     font-size: 40px;
     font-family: helvetica;
@@ -67,7 +89,7 @@
     border-radius: 8px;
 }
 
-#Elements_p
+#Elements_p , #Elements_p_py , #Elements_p_Js
 {
     font-size: 20px;
     font-family: gill sans;
@@ -95,10 +117,11 @@
     cursor: grab;
 }
 
-.botom :hover
+.botom:hover
 {
     background-color: #4e9ce8;
     font-style: italic;
     font-weight: bolder;
     cursor: grabbing;
 }
+
