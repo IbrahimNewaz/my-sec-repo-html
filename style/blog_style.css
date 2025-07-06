@@ -5,16 +5,100 @@
     background-image: url(../image/C++\ wallpaper\ \ 2.jpg);
     margin:10px 10px;
     padding: 10px 10px;
-    background-color: ;
+
 }
 
 .cont_banner
 {
     border: 1px solid #4e9ce8;
-    margin: 5px 5px;
-    padding: 10px;
-    width: 450px;
-    height: 350px;
+    border-radius: 12px;
+    margin: 15px 15px;
+    padding: 20px 20px 20px 20px;
+    width: 1450px;
+    height: 180px;
     background-color: #4e9ce8;
+
+    text-align: center;
     
+}
+
+#banner_heading
+{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Gill Sans;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4d52b4;
+
+}
+
+#banner_intro
+{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #4d52b4
+}
+
+
+/* 2nd part The Description*/
+#box
+{
+    margin: 25px;
+    padding: 15px;
+    border: 2px solid #4d52b4;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px grey ;
+    width: 350px;
+    height: 550px;
+    
+}
+
+#Elements
+{
+    font-size: 40px;
+    font-family: helvetica;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: #4d52b4;
+    padding: 5px;
+    width: 330px;
+    border-radius: 8px;
+}
+
+#Elements_p
+{
+    font-size: 20px;
+    font-family: gill sans;
+    font-weight: bolder;
+    color: #4d52b4;
+    text-align: justify;
+    padding: 10px;
+    background-color :#cae5bc;
+    border-radius: 12px;
+
+}
+
+.botom
+{
+    font-size: 16px;
+    font-family: gill sans;
+    font-weight: bolder;
+    text-align: center;
+    color: whitesmoke;
+    
+    padding: 8px 20px 8px 20px;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: #4d52b4;
+    cursor: grab;
+}
+
+.botom :hover
+{
+    background-color: #4e9ce8;
+    font-style: italic;
+    font-weight: bolder;
+    cursor: grabbing;
 }
